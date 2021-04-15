@@ -33,20 +33,20 @@ var score = 0;
 
 function preload() {
 
-  flappybirdimg = loadImage("images /flappy bird gif.gif");
-  flappybird_jumpimg = loadImage("images /flappy bird jump.gif");
-  background_1img = loadImage("images /background.png")
-  background_2img = loadImage("images /ground.png")
-  groundimg = loadImage("images /ground.png");
-  pipeimg = loadImage("images /pipe.png");
-  introimg = loadImage("images /intro.png");
-  playbuttonimg = loadImage("images /play_button.png");
-  tapscreenimformationimg = loadImage("images /tap_infromation.png");
-  gameoverimg = loadImage("images /gameover.png");
-  lodingscreenimg = loadImage("images /loding.gif");
-  lodinginfo_img = loadImage("images /loding info.png");
-  trynowimg = loadImage("images /try now.png");
-  restartimg = loadImage("images /restart.png");
+  flappybirdimg = loadImage("flappy bird gif.gif");
+  flappybird_jumpimg = loadImage("flappy bird jump.gif");
+  background_1img = loadImage("background.png")
+  background_2img = loadImage("ground.png")
+  groundimg = loadImage("ground.png");
+  pipeimg = loadImage("pipe.png");
+  introimg = loadImage("-intro.png");
+  playbuttonimg = loadImage("play_button.png");
+  tapscreenimformationimg = loadImage("tap_infromation.png");
+  gameoverimg = loadImage("gameover.png");
+  lodingscreenimg = loadImage("loding.gif");
+  lodinginfo_img = loadImage("loding info.png");
+  trynowimg = loadImage("try now.png");
+  restartimg = loadImage("restart.png");
 
  
   flappybird_font = loadFont('FLAPPYBIRDFONTS.ttf');
